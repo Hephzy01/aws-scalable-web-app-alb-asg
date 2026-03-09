@@ -49,8 +49,6 @@ Public subnets host:
 
 The Internet Gateway enables communication between the VPC and the public internet, allowing users to access the web application.
 
-<img width="1920" height="1008" alt="custom-vpc" src="https://github.com/user-attachments/assets/8517c206-0d6c-48ed-8b92-50b80cf5a7c2" />
-
 
 ---
 
@@ -58,9 +56,6 @@ The Internet Gateway enables communication between the VPC and the public intern
 ### 4. Application Load Balancer (ALB)
 
 The ALB distributes incoming HTTP traffic across multiple EC2 instances to improve availability and fault tolerance.
-
-
-<img width="1920" height="1008" alt="ALB" src="https://github.com/user-attachments/assets/6f00e27d-9476-42ad-b48d-b7d8ea6d612b" />
 
 
 
@@ -74,8 +69,6 @@ The Auto Scaling Group automatically:
 - Terminates instances when demand decreases
 - Replaces unhealthy instances
 
-  <img width="1920" height="1008" alt="ASG" src="https://github.com/user-attachments/assets/aa8e3b60-52e5-47a8-9eec-81f0df096e25" />
-
 
 ---
 
@@ -88,9 +81,6 @@ The Launch Template defines the configuration for EC2 instances including:
 - Security groups
 - User data script
 
-  
-<img width="1920" height="1008" alt="launch-t" src="https://github.com/user-attachments/assets/37793c94-9f7c-4c9b-848f-0cc0f1d0b167" />
-
 
 ---
 
@@ -102,9 +92,6 @@ Amazon SNS is used to send **email notifications whenever scaling activities occ
 - Instance termination
 - Scaling events
 
-<img width="1920" height="1008" alt="SNS" src="https://github.com/user-attachments/assets/6f4d80be-3b6f-4683-a077-38ad6b9bca34" />
-
-
 
 ---
 
@@ -112,10 +99,6 @@ Amazon SNS is used to send **email notifications whenever scaling activities occ
 ## User Data Script
 
 The EC2 instances automatically install **Nginx** and display the hostname to demonstrate load balancing.
-
-<img width="1920" height="1008" alt="webpic" src="https://github.com/user-attachments/assets/c44bb526-15c6-4a4f-b42e-7d632725f17a" />
-
-
 
 
 
